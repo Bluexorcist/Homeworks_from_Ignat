@@ -1,0 +1,36 @@
+.superInput {
+    color: black;
+    font-family: inherit;
+    width: 10%;
+    border: 0;
+    border-radius: 10px;
+    border-bottom: 5px solid  darkgrey;
+    font-size: 1.3rem;
+    padding: 4px 0;
+    background:  white;
+    transition: border-color 0.6s;
+
+}
+.superInput:hover {
+    background: #cecbcb;
+}
+
+.errorInput {
+    color: black;
+    font-family: inherit;
+    width: 10%;
+    border: 0;
+    border-radius: 10px;
+    border-bottom: 5px solid  darkgrey;
+    font-size: 1.3rem;
+    padding: 4px 0;
+    background: #f66e6e;
+    transition: border-color 0.2s;
+}
+.errorInput:hover {
+    background: #ff8888;
+}
+
+.error {
+    color: red;
+}

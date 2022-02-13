@@ -1,0 +1,73 @@
+.someClass {
+
+}
+
+.affair {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: 1rem;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.filterButton {
+    border-width: 1px;
+    width: 9%;
+    margin-right: 25px;
+    padding: 5px;
+    background-color: #bbada1;
+    position:relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    text-decoration:none;
+    color: #461200;
+    background-image: linear-gradient(bottom, rgb(255, 255, 255) 0%, rgb(253, 7, 7) 50%);
+    box-shadow: inset 0px 1px 0px #fffff9, 0px 2px 0px #707070;
+    border-radius: 5px;
+    border-color: #afa399;
+}
+.filterButton:hover {
+    background-color: #ccbcae;
+}
+.buttonsFilter {
+    display: inline;
+    margin: 20px;
+    padding: 20px;
+}
+.button {
+    border-width: 1px;
+    border-color: #cb5656;
+    background-color: #ff4f4f;
+    position:relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    text-decoration:none;
+    color: #000000;
+    box-shadow: inset 0px 1px 0px #f8bbbb, 0px 3px 0px rgba(180, 0, 0, 0.87);
+    border-radius: 5px;
+}
+.button:hover {
+    background-color: rgba(255, 35, 35, 0.34);
+}
+.button:active {
+    top:3px;
+    box-shadow: inset 1px 1px 0px #ffffff, inset 0px 1px 1px #570000;
+    color: #ffffff;
+    text-shadow: 0px 1px 1px rgba(246, 99, 54, 0.3);
+    background: rgba(100, 3, 3, 0.92);
+}
+
+.low {
+    color: gold;
+}
+.middle {
+    color: chartreuse;
+}
+.high {
+    color: red;
+}
+.item {
+    font-size: 18px;
+    font-weight: 500;
+}
