@@ -1,0 +1,48 @@
+.container {
+    display: inline;
+}
+
+.arrow {
+    position: relative;
+    left: 660px;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px grey;
+    opacity: 1;
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    background-color: #ff8888;
+}
+
+.closed {
+    height: 2000px;
+    width: 2000px;
+    position: absolute;
+    left: -600px;
+}
+
+.active {
+    transition: all 1s;
+    justify-self: center;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.item {
+    transition: all 1s;
+    justify-self: center;
+    padding: 20px;
+    text-decoration: none;
+    color: #595959;
+    font-size: 30px;
+    font-weight: 600;
+}

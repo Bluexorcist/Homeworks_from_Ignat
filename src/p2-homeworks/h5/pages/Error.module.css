@@ -1,0 +1,19 @@
+.error {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    justify-items: center;
+    padding-top: 100px;
+}
+.ff {
+    font-size: 54px;
+    font-weight: 700;
+}
+.page {
+    font-size: 48px;
+    font-weight: 600;
+    color: maroon;
+}
+.cat {
+    font-size: 64px;
+}
